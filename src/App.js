@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// PACKAGE DEPENDENCES
+import React, { Component } from 'react';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// lOCAL DEPENDENCES
+import HomePage from './pages/home/home';
+import './App.css';
+import Navbar from './components/nav';
+import AboutPage from './pages/about/about';
+
+
+
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Navbar />
+          <div>
+            <Switch>
+              <Route name="home" exact path="/" component={HomePage} />
+              <Route name="about" exact path="/about" component={AboutPage} />
+            </Switch>
+          </div>
+        </div>
+      </Router>
+    )
+  };
+};
 
 export default App;
