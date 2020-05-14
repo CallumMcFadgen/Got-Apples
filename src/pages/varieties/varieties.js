@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import './../../App.css';
 
-function Varieties() {
+function VarietiesPage() {
   return (
     <div>
         <h1>Varieties page</h1>
@@ -9,4 +9,4 @@ function Varieties() {
   );
 }
 
-export default Varieties;
+export default VarietiesPage;

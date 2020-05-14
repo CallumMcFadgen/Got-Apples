@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import './../../App.css';
 
-function Growers() {
+function GrowersPage() {
   return (
     <div>
         <h1>Growers page</h1>
@@ -9,4 +9,4 @@ function Growers() {
   );
 }
 
-export default Growers;
+export default GrowersPage;

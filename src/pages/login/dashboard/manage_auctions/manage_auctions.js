@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import './../../../../App.css';
 
-function Manage_auctions() {
+function ManageAuctionsPage() {
   return (
     <div>
         <h1>Manage Auctions page</h1>
@@ -9,4 +9,4 @@ function Manage_auctions() {
   );
 }
 
-export default Manage_auctions;
+export default ManageAuctionsPage;

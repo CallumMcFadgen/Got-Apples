@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import './../../../../App.css';
 
-function Manage_account() {
+function ManageAccountPage() {
   return (
     <div>
         <h1>Manage account page</h1>
@@ -9,4 +9,4 @@ function Manage_account() {
   );
 }
 
-export default Manage_account;
+export default ManageAccountPage;

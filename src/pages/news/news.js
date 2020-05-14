@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import './../../App.css';
 
-function News() {
+function NewsPage() {
   return (
     <div>
         <h1>News page</h1>
@@ -9,4 +9,4 @@ function News() {
   );
 }
 
-export default News;
+export default NewsPage;

@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import './../../../App.css';
 
-function Variety() {
+function VarietyPage() {
   return (
     <div>
         <h1>Variety page</h1>
@@ -9,4 +9,4 @@ function Variety() {
   );
 }
 
-export default Variety;
+export default VarietyPage;

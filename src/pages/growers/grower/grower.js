@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import './../../../App.css';
 
-function Grower() {
+function GrowerPage() {
   return (
     <div>
         <h1>Grower page</h1>
@@ -9,4 +9,4 @@ function Grower() {
   );
 }
 
-export default Grower;
+export default GrowerPage;
