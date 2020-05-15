@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './../../../App.css';
 
-function Register() {
-  return (
-    <div>
+class Register extends Component {
+  render() {
+    return (
+      <div>
         <h1>Register page</h1>
-    </div>
-  );
-}
+      </div>
+    );
+  };
+};
 
 export default Register;

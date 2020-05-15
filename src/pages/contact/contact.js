@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './../../App.css';
 
-function ContactPage() {
-  return (
-    <div>
+class ContactPage extends Component {
+  render() {
+    return (
+      <div>
         <h1>Contact page</h1>
-    </div>
-  );
-}
+      </div>
+    );
+  };
+};
 
 export default ContactPage;

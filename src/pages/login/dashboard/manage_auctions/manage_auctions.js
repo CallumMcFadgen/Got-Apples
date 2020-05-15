@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './../../../../App.css';
 
-function ManageAuctionsPage() {
-  return (
-    <div>
+class ManageAuctionsPage extends Component {
+  render() {
+    return (
+      <div>
         <h1>Manage Auctions page</h1>
-    </div>
-  );
-}
+      </div>
+    );
+  };
+};
 
 export default ManageAuctionsPage;
