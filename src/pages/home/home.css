@@ -1,0 +1,58 @@
+/* HEADER STYLING  ******************************************/
+
+/* overall styling for the page header */
+.header_style {
+    display: flex;
+    align-items: center;
+    background: #2A6F03;
+    border: thin, black, solid;
+    min-height: 8vh;
+}
+
+/* styling for the header logo */
+.header_logo_style {
+    font-size: 250%;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    margin-left:2%;
+}
+
+/* NAV BAR ***************************************************/
+
+/* overall styling for the navbar */
+.nav_style {
+    background: #64676C;
+    align-items: center;
+    min-height: 6.8vh;
+}
+
+/* styling for individual nav buttons */
+.nav_button_style {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: white;
+    background: #64676C;
+    font-size: 2.5vh;
+    font-weight: 600;
+    float: left;
+    cursor: pointer;
+   }
+
+/* highlighting for the current pages button */
+.current_nav_button_style {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: white;
+    background: #64676C;
+    font-size: 2.5vh;
+    font-weight: 750;
+    float: left;
+    cursor: pointer;
+   }

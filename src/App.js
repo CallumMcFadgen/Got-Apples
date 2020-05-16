@@ -5,7 +5,6 @@ import { Container} from 'reactstrap';
 
 // lOCAL DEPENDENCES
 import './App.css';
-import Navbar from './components/navbar/navbar';
 import HomePage from './pages/home/home';
 import AboutPage from './pages/about/about';
 import GrowersPage from './pages/growers/growers';
@@ -29,7 +28,6 @@ class App extends Component {
       <Container>
       <Router>
         <div className="App">
-          <Navbar />
           <div>
             <Switch>
               <Route name="home" exact path="/" component={HomePage} />
