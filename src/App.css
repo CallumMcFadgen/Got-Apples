@@ -19,3 +19,7 @@ nav{
   align-items: center;
   list-style: none;
 }
+
+.container {
+  max-width: 100%;
+}

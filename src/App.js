@@ -1,11 +1,12 @@
 // PACKAGE DEPENDENCES
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Container} from 'reactstrap';
 
 // lOCAL DEPENDENCES
-import HomePage from './pages/home/home';
 import './App.css';
-import Navbar from './components/nav';
+import Navbar from './components/navbar/navbar';
+import HomePage from './pages/home/home';
 import AboutPage from './pages/about/about';
 import GrowersPage from './pages/growers/growers';
 import GrowerPage from './pages/growers/grower/grower';
@@ -22,10 +23,10 @@ import DashboardPage from './pages/login/dashboard/dashboard';
 import ManageAuctionsPage from './pages/login/dashboard/manage_auctions/manage_auctions';
 import ManageAccountPage from './pages/login/dashboard/manage_account/manage_account';
 
-
 class App extends Component {
   render() {
     return (
+      <Container>
       <Router>
         <div className="App">
           <Navbar />
@@ -51,6 +52,7 @@ class App extends Component {
           </div>
         </div>
       </Router>
+      </Container>
     );
   };
 };
