@@ -78,12 +78,6 @@
 
 /* CONTENT  **************************************************/
 
-/* using to set page height at the moment, might be an issue? lol */
-.page_height {
-    height: 100vh;
-  }
-
-
 /* padding under nav breadcrumbs */
 .crumb_padding {
     min-height: 4vh;
