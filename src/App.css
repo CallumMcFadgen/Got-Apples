@@ -1,8 +1,11 @@
-.App {
-  text-align: center;
+.container {
+  padding: 0% !important;
+  width: 100% !important;
+  max-width: 1920px !important;
+  background: #e3e4e6;
 }
 
-nav{
+/* nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -18,10 +21,4 @@ nav{
   justify-content: space-around;
   align-items: center;
   list-style: none;
-}
-
-.container {
-  padding: 0% !important;
-  width: 100% !important;
-  max-width: 1920px !important;
-}
+} */
