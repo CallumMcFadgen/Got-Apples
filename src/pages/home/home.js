@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col } from 'reactstrap';
-import { HomeCarousel} from './../../components/carousels/home_carousel';
-
 
 import './../../App.css';
+import Test from '../../components/carousels/carousel'
 import './../../pages/home/home.css';
 
 
@@ -61,14 +60,7 @@ class HomePage extends Component {
 
         <Row>
           <Col xs="12" sm="12" md="12" lg={{ size: "10", offset: "1" }} xl={{ size: "10", offset: "1" }}>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+          <Test />
           </Col>
         </Row>
 

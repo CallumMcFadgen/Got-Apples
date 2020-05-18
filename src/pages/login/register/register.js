@@ -203,10 +203,10 @@ class RegisterPage extends Component {
               </FormGroup>
               <FormGroup>
                 <label>
-                  <Input 
-                  className=""
-                  type="checkbox" 
-                  innerRef={(input) => { this.menu_item_function = input }} />{' '}
+                  <Input
+                    className=""
+                    type="checkbox"
+                    innerRef={(input) => { this.menu_item_function = input }} />{' '}
                   Request membership privilages
                   </label>
               </FormGroup>
