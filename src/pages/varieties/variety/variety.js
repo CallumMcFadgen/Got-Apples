@@ -1,12 +1,14 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react';
+import './../../../App.css';
 
-function Variety() {
-  return (
-    <div>
+class VarietyPage extends Component {
+  render() {
+    return (
+      <div>
         <h1>Variety page</h1>
-    </div>
-  );
-}
+      </div>
+    );
+  };
+};
 
-export default Variety;
+export default VarietyPage;

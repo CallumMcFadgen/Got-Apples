@@ -1,12 +1,14 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react';
+import './../../../App.css';
 
-function Grower() {
-  return (
-    <div>
+class GrowerPage extends Component {
+  render() {
+    return (
+      <div>
         <h1>Grower page</h1>
-    </div>
-  );
-}
+      </div>
+    );
+  };
+};
 
-export default Grower;
+export default GrowerPage;

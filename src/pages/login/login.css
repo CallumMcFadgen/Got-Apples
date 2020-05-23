@@ -1,0 +1,138 @@
+/* HEADER STYLING  ******************************************/
+
+/* overall styling for the page header */
+.header_style {
+    display: flex;
+    align-items: center;
+    background: #2A6F03;
+    border: thin, black, solid;
+    min-height: 6.5vh;
+}
+
+/* styling for the header logo */
+.header_logo_style {
+    font-size: 250%;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    margin-left:1%;
+}
+
+/* NAV BAR ***************************************************/
+
+/* overall styling for the navbar */
+.nav_style {
+    background: #64676C;
+    align-items: center;
+    min-height: 5.5vh;
+}
+
+/* styling for individual nav buttons */
+.nav_button_style {
+    padding-top: 1.25vh;
+    padding-bottom: 1.25vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: white;
+    background: #64676C;
+    font-size: 1.8vh;
+    font-weight: 500;
+    float: left;
+}
+
+/* highlighting for the current pages button */
+.current_nav_button_style {
+    padding-top: 1.25vh;
+    padding-bottom: 1.25vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: white;
+    background: #64676C;
+    font-size: 1.8vh;
+    font-weight: 650;
+    float: left;
+}
+
+/* HEADING  ************************************************/
+
+/* sizing for a heading image */
+.heading_img_style {
+    width: 100%;
+    height: auto;
+}
+
+  /* page heading text */
+.page_heading_txt {
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 3vw;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* CONTENT  **************************************************/
+
+/* padding under nav breadcrumbs */
+.crumb_padding {
+    min-height: 4vh;
+}
+
+/* breadcrumbstyling, not ideal */
+a {
+    text-decoration:none;
+    background-color:transparent;
+    font-size: 1.5vh;
+    color: black;
+}
+
+.login_form_style {
+    background-color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.login_input_style {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+   /* FOOTER  **************************************************/
+
+   /* overall styling for page footer */
+.page_footer_style {
+    padding-top:1vh;
+    padding-bottom:1vh;
+    background: #64676C;
+    color: #ffffff;
+}
+
+/* styling for the affilate links in the footer */
+.affiliate_link_style {
+    text-align: center;
+    border: thin, white, solid;
+}
+
+/* styling for the page footer heading */
+.footer_logo_style {
+    text-align: center;
+}
+
+/* styling for the social media links in the footer */
+.social_media_link_style {
+    text-align: center;
+    border: thin, white, solid;
+}
+
+/* over all styling for the page sub footer */
+.sub_footer_style {
+    height: 3vh;
+    background: #2A6F03; 
+}

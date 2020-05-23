@@ -1,12 +1,14 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react';
+import './../../App.css';
 
-function Varieties() {
-  return (
-    <div>
+class VarietiesPage extends Component {
+  render() {
+    return (
+      <div>
         <h1>Varieties page</h1>
-    </div>
-  );
-}
+      </div>
+    );
+  };
+};
 
-export default Varieties;
+export default VarietiesPage;

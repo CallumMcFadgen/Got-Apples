@@ -91,6 +91,18 @@ a {
     color: black;
 }
 
+.register_form_style {
+    background-color: white;
+    text-align: center;
+    padding: none;
+}
+
+.register_input_style {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
    /* FOOTER  **************************************************/
 
    /* overall styling for page footer */
