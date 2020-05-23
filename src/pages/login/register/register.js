@@ -195,7 +195,7 @@ class RegisterPage extends Component {
                   type="text"
                   name="zip_code"
                   id="zip_code"
-                  placeholder="Zip Code"
+                  placeholder="ZIP Code"
                   // value={this.state.password} 
                   // onChange={this.handleChange} 
                   // required 

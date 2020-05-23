@@ -2,14 +2,13 @@
 import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
 
-class Test extends React.Component {
+class HomePageSlider extends React.Component {
   render() {
     const items = [
       {
         src: './../images/home_page_slider/apples_on_branch.jpg',
       },
       {
-
         src: './../images/home_page_slider/apples_on_chopping_board.jpg',
       },
       {
@@ -33,4 +32,4 @@ class Test extends React.Component {
     );
   }
 }
-export default Test;
+export default HomePageSlider;

@@ -3,10 +3,8 @@ import { Link } from 'react-router-dom';
 import { Row, Col } from 'reactstrap';
 
 import './../../App.css';
-import Test from '../../components/carousels/carousel'
+import HomePageSlider from '../../components/carousels/carousel'
 import './../../pages/home/home.css';
-
-
 
 class HomePage extends Component {
   render() {
@@ -55,17 +53,12 @@ class HomePage extends Component {
           </Col>
         </Row>
 
-
-
-
+        {/* IMAGESLIDER */}
         <Row>
           <Col xs="12" sm="12" md="12" lg={{ size: "10", offset: "1" }} xl={{ size: "10", offset: "1" }}>
-          <Test />
+          <HomePageSlider />
           </Col>
         </Row>
-
-
-
 
         {/* SPACING */}
         <Row>
@@ -98,8 +91,8 @@ class HomePage extends Component {
           </div>
           </Col>
         </Row>
-
         <div className="sub_footer_style"></div>
+
       </React.Fragment>
     );
   };

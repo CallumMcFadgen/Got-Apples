@@ -94,7 +94,8 @@ a {
 .login_form_style {
     background-color: white;
     text-align: center;
-    padding: none;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .login_input_style {
