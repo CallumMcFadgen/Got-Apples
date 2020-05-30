@@ -45,19 +45,19 @@ class GrowersPage extends Component {
         <div>
           <h1>Grower information from API GET request</h1>
           <br />
-          {this.state.users.map(users => {
-            if (users.got_apples_member === 1) {
+          {this.state.users.map(user => {
+            if (user.got_apples_member === 1) {
               return (
-                <div>
-                  <h2>User : {users.user_name}</h2>
+                <div key={user.id}>
+                  <h2>User : {user.user_name}</h2>
                   <p><b>First name</b></p>
-                  <p>{users.first_name}</p>
+                  <p>{user.first_name}</p>
                   <p><b>Last name</b></p>
-                  <p>{users.last_name}</p>
+                  <p>{user.last_name}</p>
                   <p><b>Phone number</b></p>
-                  <p>{users.phone_number}</p>
+                  <p>{user.phone_number}</p>
                   <p><b>Email address</b></p>
-                  <p>{users.email_address}</p>
+                  <p>{user.email_address}</p>
                   <br />
                 </div>
               )
